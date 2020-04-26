@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JNK</title>
+  <base href="https://LeBaron88.github.io/jnk_foundation/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.aa74842ae99c42b8b1e6.css"></head>
+<body>
+  <app-root></app-root>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+
+        var elems = document.querySelectorAll('#team_carousel');
+        var instances = M.Carousel.init(elems);
+
+        var elems = document.querySelector('#carousel');
+        var instances = M.Carousel.init(elems, {
+          fullWidth: true,
+          indicators: true,
+          duration: 500,
+                      });
+        var elem = document.querySelector('.carousel.carousel-slider');
+        var instance = M.Carousel.getInstance(elem);
+        setInterval(function(){ 
+            instance.next(1);
+           }, 10000);  
+
+        
+ 
+      });
+      
+    </script>
+<script src="runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="polyfills-es5.3e8196928d184a6e5319.js" nomodule defer></script><script src="polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="scripts.4230597b2445cca184d4.js" defer></script><script src="main-es2015.5087e695e9f551a51630.js" type="module"></script><script src="main-es5.5087e695e9f551a51630.js" nomodule defer></script></body>
+</html>
