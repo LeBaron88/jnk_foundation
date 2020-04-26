@@ -1,0 +1,15 @@
+  <div class="carousel carousel-slider" id="carousel">
+    <div *ngFor="let x of backgroundIndex">
+        <div class="carousel-item" href="#one!" [ngClass]="'bg' + x">
+        </div>
+    </div>
+    <div class="carousel-fixed-item center textSlider">
+        <h1 class="hide-on-small-only">Soutenez une cause qui vous tient à cœur</h1>
+        <h4 class="show-on-small hide-on-med-and-up">Soutenez une cause qui vous tient à cœur <br/><br/></h4>
+        <p class="textSliderSmall hide-on-med-and-down">Chez JNK Fondation, nous pensons que tous les enfants du monde ont le droit d'être
+            pris en charge et le droit d'être protégé</p>
+    </div>
+    <div class="carousel-fixed-item center">
+        <a class="btn waves-effect blue white-text" (click)="goTo()"><i class="material-icons left">accessibility</i>Rejoignez-nous</a>
+      </div>
+  </div>

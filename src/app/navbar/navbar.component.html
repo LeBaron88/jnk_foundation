@@ -1,0 +1,34 @@
+<nav>
+    <div class="nav-wrapper transparent" [class.navScrolled]="navScrolled">
+        
+      <div class="brand-logo">
+          <!-- <a (click)="goTo('navbar')">JNK Fondation</a> -->
+          <a >JNK Fondation</a>
+      </div>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a (click)="goTo('us')">Qui Sommes-nous ?</a></li>
+        <li><a (click)="goTo('projects')">Realisations</a></li>
+        <li><a (click)="goTo('team')">Notre Equipe</a></li>
+        <li><a (click)="goTo('contact')">Contact</a></li>
+        <a class="waves-effect waves-light btn red"><i class="material-icons left">card_giftcard</i>faire un don</a>
+      </ul>
+    </div>
+</nav>
+  
+  <ul class="sidenav center" id="mobile-demo">
+    <div class="background">
+        <h4>JNK Fondation</h4>
+        <img src="../../assets/images/jnk foundation.jpg" style="height: 100px;">
+        <br />
+        <br />
+        <br />
+    </div>
+    <li><div class="divider"></div></li>
+    <li><a (click)="goTo('us')">Qui Sommes-nous ?</a></li>
+    <li><a (click)="goTo('projects')">Realisations</a></li>
+    <li><a (click)="goTo('team')">Notre Equipe</a></li>
+    <li><a (click)="goTo('contact')">Contact</a></li>
+    <a class="waves-effect waves-light btn red"><i class="material-icons left">card_giftcard</i>Donations</a>
+  </ul>
+          

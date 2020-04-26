@@ -6,8 +6,35 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 </head>
 <body>
   <app-root></app-root>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+
+        var elems = document.querySelectorAll('#team_carousel');
+        var instances = M.Carousel.init(elems);
+
+        var elems = document.querySelector('#carousel');
+        var instances = M.Carousel.init(elems, {
+          fullWidth: true,
+          indicators: true,
+          duration: 500,
+                      });
+        var elem = document.querySelector('.carousel.carousel-slider');
+        var instance = M.Carousel.getInstance(elem);
+        setInterval(function(){ 
+            instance.next(1);
+           }, 10000);  
+
+        
+ 
+      });
+      
+    </script>
 </body>
 </html>

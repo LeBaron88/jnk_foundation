@@ -1,0 +1,33 @@
+.nav-wrapper {
+    padding: 0 1em 0 3em;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    background-color:  rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 0 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.nav-wrapper li a {
+    font-weight: 600 !important; 
+}
+
+.nav-wrapper li a:hover {
+    color: red;
+    transition: .2s ease-in;
+    background-color: transparent !important;
+}
+
+nav ul li:hover {
+    background-color: transparent !important; 
+    text-decoration: none !important;
+}
+
+.navScrolled {
+    background-color:  rgba(241, 196, 15,0.5) !important;
+}
