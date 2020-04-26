@@ -8,7 +8,7 @@ import { ThrowStmt } from '@angular/compiler';
 })
 export class NavbarComponent implements OnInit {
 
-  private navScrolled = false;
+  navScrolled = false;
   constructor() { }
 
   ngOnInit() { }
