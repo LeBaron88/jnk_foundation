@@ -3,7 +3,7 @@
     "Nous sommes une equipe tres dynamique et toujours pret a vous ecouter afin de resoudre vos problemes."
 </p>
 <div class="carousel center" id="team_carousel">
-  <div class="carousel-item" *ngFor="let agent of team">
+  <div class="carousel-item" *ngFor="let agent of team" [ngClass]="{'active':agent.name ==='Jeancy Kankonde'}">
     <img src={{agent.picture}} />
     <h5>{{agent.name}}</h5>
     <p>{{agent.position}}</p>

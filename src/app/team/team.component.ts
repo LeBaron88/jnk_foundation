@@ -10,27 +10,27 @@ export class TeamComponent implements OnInit {
     {
       name: "Jeancy Kankonde",
       position: "Fondateur",
-      picture: "assets/images/profile.png",
+      picture: "assets/images/Optimized-profile.png",
     },
     {
       name: "Paula George",
       position: "Directrice Marketing",
-      picture: "assets/images/profile 1.png",
+      picture: "assets/images/Optimized-profile 1.png",
     },
     {
       name: "Greg Smith",
       position: "Campaign Manager",
-      picture: "assets/images/profile 2.png",
+      picture: "assets/images/Optimized-profile 2.png",
     },
     {
       name: "Sofia Gonzales",
       position: "Agent Manager",
-      picture: "assets/images/profile 3.png",
+      picture: "assets/images/Optimized-profile 3.png",
     },
     {
       name: "Alan Rajesh",
       position: "Directeur Finance",
-      picture: "assets/images/profile 4.png",
+      picture: "assets/images/Optimized-profile 4.png",
     },
   ];
   constructor() {}

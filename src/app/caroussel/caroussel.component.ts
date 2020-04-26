@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarousselComponent implements OnInit {
 
-  backgroundIndex = [0, 1, 2, 3];
+  backgroundIndex = ['bg0 active', 'bg1', 'bg2', 'bg3'];
   constructor() { }
 
   ngOnInit() {
